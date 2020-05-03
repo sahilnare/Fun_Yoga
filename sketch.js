@@ -5,6 +5,8 @@ let skeleton;
 
 //for setting up everthing - it will run only once
 function setup() {
+    // createCanvas(720, 400);
+    // img = loadImage('assets/pic.png');
     //creating canvas
     createCanvas(640, 480);
     //capturing video
@@ -32,6 +34,7 @@ function modelLoaded() {
 
 
 function draw() {
+    // image(img, 0, 0);
     image(video, 0, 0);
 
     if (pose) {
